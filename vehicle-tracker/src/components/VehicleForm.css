@@ -1,0 +1,84 @@
+.form-page {
+    position: relative;
+    height: 100vh;
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', sans-serif;
+    overflow: hidden; /* scroll yok */
+  }
+  
+  .vehicle-form {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .vehicle-form h2 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .form-row {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  /* Sabit geri butonu sol üstte */
+  .fixed-back {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #888;
+    z-index: 1000;
+  }
+  
+  .fixed-back:hover {
+    background-color: #555;
+  }
+  
+  /* Sabit kaydet butonu sağ altta */
+  .fixed-submit {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0077cc;
+    z-index: 1000;
+  }
+  
+  .fixed-submit:hover {
+    background-color: #005fa3;
+  }
+  
